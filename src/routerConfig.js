@@ -1,5 +1,6 @@
 import Home from '../src/components/home/Home';
 import Submit from '../src/components/home/Submit';
+import SubmitNew from '../src/components/home/SubmitNew';
 import Setting from '../src/components/home/Setting';
 import PlanInfo from '../src/components/planInfo/index';
 import Unit from '../src/components/home/Unit.vue';
@@ -39,6 +40,10 @@ const routes = [
       {
         path:'/',
         component:Submit,
+      },
+      {
+        path:'submit-new',
+        component:SubmitNew,
       },
       {
         path:'submit',
