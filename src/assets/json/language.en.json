@@ -1,0 +1,17 @@
+{
+    "actural":"actural",
+    "plan":"plan",
+    "rejected":"rejected",
+    "target":"target",
+    "accepted":"accepted",
+    "purged":"purged",
+    "home":"home",
+    "production":"production",
+    "rejection":"rejection",
+    "downtime":"downtime",
+    "sop":"sop",
+    "maint":"maint",
+    "maint1":"maint1",
+    "eff":"eff",
+    "next_plan":"next plan"
+}

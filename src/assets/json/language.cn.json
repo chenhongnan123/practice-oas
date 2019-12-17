@@ -1,0 +1,17 @@
+{
+    "actural":"实际",
+    "plan":"当班计划",
+    "rejected":"不良品",
+    "target":"实时目标",
+    "accepted":"良品",
+    "purged":"保压异常",
+    "home":"生产记录",
+    "production":"不良录入",
+    "rejection":"停机记录",
+    "downtime":"计划终止",
+    "sop":"文档显示",
+    "maint":"计划终止",
+    "maint1":"模具保养",
+    "eff":"效率",
+    "next_plan":"后续计划"
+}
