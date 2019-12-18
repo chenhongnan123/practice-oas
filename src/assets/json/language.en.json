@@ -10,8 +10,8 @@
     "rejection":"rejection",
     "downtime":"downtime",
     "sop":"sop",
-    "maint":"maint",
-    "maint1":"maint1",
+    "maint":"plan",
+    "maint1":"maint",
     "eff":"eff",
     "next_plan":"next plan"
 }

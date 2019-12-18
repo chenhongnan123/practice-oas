@@ -11,7 +11,7 @@
           <p>Mould: 1S253</p>
           <p>Quantity: 1600</p>
         </el-col>
-        <el-col :span="5" :offset="7">
+        <el-col :span="5" :offset="6">
           <el-button><i class="el-icon-video-pause" size="mini"></i>Stop Plan</el-button>
         </el-col>
       </el-row>
@@ -25,7 +25,7 @@
           <p>Mould: 1S253</p>
           <p>Quantity: 1600</p>
         </el-col>
-        <el-col :span="5" :offset="7">
+        <el-col :span="5" :offset="6">
           <el-button><i class="el-icon-video-play" size="mini"></i>Start Plan</el-button>
         </el-col>
       </el-row>
@@ -57,6 +57,8 @@ export default {
   .homePage-left-main{
     position: relative;
     color: #fff;
+    height: 100%;
+    padding: .1rem;
     >div{
       background: rgb(43,60,80);
       .el-row{

@@ -24,8 +24,8 @@ export default {
     data(){
       const generateData = () => {
         const data = [];
-        const cities = ['陈一', '李二', '王三', '张四', '赵五', '于六', '周七'];
-        const pinyin = ['chenyi', 'lier', 'wangsan', 'zhangsi', 'zhaowu', 'yuliu', 'zhouqi'];
+        const cities = [ '李二', '王三', '陈一','张四', '赵五', '于六', '周七'].sort((a, b) => a.localeCompare(b, 'zh-Hans-CN', {sensitivity: 'accent'}));
+        const pinyin = [ 'lier', 'wangsan','chenyi', 'zhangsi', 'zhaowu', 'yuliu', 'zhouqi'].sort((a, b) => a.localeCompare(b, 'zh-Hans-EN', {sensitivity: 'accent'}));
         cities.forEach((city, index) => {
           data.push({
             label: city,
